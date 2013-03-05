@@ -20,7 +20,7 @@ public class ShellSort {
 		System.out.println("Vetor Em Possivel Desordem");		
 		System.out.println(vetor.toString());
 		
-		double h= n/2;
+		double h= 1;
 		while(h<=n){
 			h=3*h+1;
 		}
